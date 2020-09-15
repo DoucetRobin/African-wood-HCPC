@@ -11,7 +11,7 @@ library(tidyverse)
 library (reshape2)
 
 ### Workspace and database importation
-setwd("C:\\Users\\doucet.r\\Documents\\ROBIN\\Documents\\Doctorat\\Thèse\\Rédaction\\WST\\Wood description of Pachyelasma tessmanii\\Analyse multi variée")
+setwd("...")
 data <- read.csv2("db_tropix.csv", h=T , sep= ";", row.names ="id")
 # Removing qualitative variable
 datapca <- data[,(5:14)]
